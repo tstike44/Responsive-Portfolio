@@ -1,0 +1,175 @@
+body {
+    background-image: url("../images/bananas.png")
+}
+
+.top-page {
+    position: relative;
+    top: -24px;
+    left: -10px;
+    width: 111%;
+    height: 65px;
+    background-color: #3be;
+    color: white;
+} 
+
+
+
+#subject {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid #3be;
+}
+
+#para-bio {
+    line-height: 40px;
+    font-family: 'Shadows Into Light', cursive;
+    position: relative;
+    left: 5px;
+    text-align: center;
+    
+}
+
+#about-head{
+    position: relative;
+    display: inherit;
+
+}
+
+#portfolio {
+    position: relative;
+    display: inherit;
+}
+
+#main-body, #index-photo {
+    float: left;
+}
+
+#contact-head {
+    position: relative;
+    display: inherit;
+
+}
+
+#name-head {
+    position: relative;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 20px;
+    top: 8px;
+}
+
+.header-links {
+    position: relative;
+    display: inline;
+    left: 65%;
+    bottom: 45px;}
+
+ul {
+    list-style-type: none;
+    }
+
+    footer {
+    position: fixed;
+    left: 49%;
+    font-style: italic;
+    font-size: 10px;
+    top: 95%;
+    }
+      
+    .body-p {
+        height: 440px;
+        background: white;
+        padding: 8px;
+        width: 90%;
+        position: fixed;
+        left: 50px;
+    }
+    
+    form{
+        padding: 5px; 
+        line-height: 30px;
+        position: relative;
+        top: -20px;  
+    }
+
+    #name-input {
+        height: 20px;
+        width: 100%;
+    }
+    #email-input {
+        height: 20px;
+        width: 100%;
+    }
+    
+    #message-input {
+        width: 100%;
+        height: 150px;
+    }
+
+    .port-images {
+        position: fixed;  
+        left: 20%;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    a {
+        color: #3be;
+    }
+
+    button {
+        border: 1px solid #3be;
+        color:#3be ;
+        background-color: #127
+    }
+    .port-bod {
+        background-color: white;
+    }
+
+    @media screen and (max-width: 600px) {
+        .top-page {
+            width:160%;
+            height:100px;
+        }
+
+        .header-links {
+            margin-left: 60px;
+            position: unset;
+        }
+        #name-head {
+            margin-left: 12px;
+        }
+
+        .body-p {
+            height: auto;
+            left: 34px;
+            width: 50%;
+        }
+
+        footer {
+            left: 29%;
+        }
+
+        #index-photo {
+            height: 100px;
+            width: 100px;
+        }
+
+        #para-bio {
+            line-height: unset;
+        }
+         
+        #tub, #smile, #sleep {
+            height: 150px;
+            width: 150px;
+        }
+            #kkona {
+                height: 200px;
+                width: 150px;     
+            }
+        .port-images {
+            position: unset;
+        }
+    }
